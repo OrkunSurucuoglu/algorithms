@@ -23,10 +23,7 @@ if __name__ == '__main__':
         arr.append(randint(1,100))
     
     arr.sort()
-    #print('arr: ' + str(arr))
     x = randint(1,100)
-    #print('x: ' + str(x))
-    #print('')
     
     index = binary_search(arr, x)
     if index == -1:
